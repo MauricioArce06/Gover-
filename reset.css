@@ -1,0 +1,50 @@
+/* reset.css */
+
+/* Establece el box-sizing en border-box para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece estilos base para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Elimina la lista de estilos */
+ul, ol {
+    list-style: none;
+}
+
+/* Elimina la decoración de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elimina la decoración de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Elimina la decoración de párrafos */
+p {
+    margin: 0;
+}
+
+/* Elimina los estilos de botones por defecto */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Elimina la decoración de imágenes */
+img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
