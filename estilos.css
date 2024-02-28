@@ -1,10 +1,10 @@
 header {
-    background-color: red;
+    /* background-color: red */
 }
 
 .header {
     margin: 32px 135px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 header nav {
     display: flex;
@@ -173,7 +173,7 @@ box-shadow: 0px 20px 50px 0.68px rgba(0,0,0,0.04);
     background-color: #F86061;
     color: #FFFAFA;
     border: none;
-    border-radius: 6px;
+    border-radius: 12px;
     font-size: 20px;
     font-weight: 500;
     font-family: "Poppins";
@@ -181,9 +181,10 @@ box-shadow: 0px 20px 50px 0.68px rgba(0,0,0,0.04);
 
 #orderProcess {
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin-left: 34px;
+    width: 224px;
+    height: 70px;
 }
 
 #eclipse {
@@ -195,6 +196,7 @@ box-shadow: 0px 20px 50px 0.68px rgba(0,0,0,0.04);
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    margin-right: 16px;
 }
 #triangulo {
     width: 17px;
@@ -204,4 +206,82 @@ box-shadow: 0px 20px 50px 0.68px rgba(0,0,0,0.04);
     justify-content: center;
     background-color: #FDC55E;
     clip-path: polygon(0 0, 0 100%, 100% 53%);
+}
+
+#orderProcess p {
+    color: #363636;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+#imgDerecha {
+    width: 619px;
+    height: 605px;
+    margin-top: 39px;
+}
+
+#card01 {
+    width: 182px; ;
+    height: 235px;
+    margin-top: 145px;
+}
+
+#naranjas {
+    width: 101px;
+    height: 88px;
+    position: relative;
+    bottom: 15.5em;
+    left: 3em;
+
+}
+
+#sombras{
+    filter: drop-shadow( 0px 100px 80px rgba(0, 0, 0, 0.1));
+}
+
+#card01Marco {
+    width: 182px;
+    height: 235px;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#miniTxt2 {
+    font-family: "Poppins";
+    font-size: 10px;
+    color: #A5A5A5;
+}
+
+#card01Marco h4 {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#card01Marco h3 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 900;
+    align-items: center;
+    margin-top: 16px;
+}
+
+#card01Marco hr {   
+    width: 23%;
+    height: 2px;
+    margin-left: 2.3em;
+    background-color: #FFA610;
+    border-color: #FFA610;
+    border-radius: 1px;
+}
+
+#carritoAgregar {
+    position: relative;
+    bottom: 10.2em;
+    left: 1.7em;
 }
