@@ -21,7 +21,7 @@ header nav {
     height: 41.58px;
 }
 
-#navegacion span{
+#navegacion a{
     font-size: 2em;
     font-family: "Poppins";
     color: #2E2E2E;
@@ -32,6 +32,7 @@ header nav {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-left: 274.1px;
 }
 
 #menu li {
@@ -219,36 +220,48 @@ box-shadow: 0px 20px 50px 0.68px rgba(0,0,0,0.04);
     width: 619px;
     height: 605px;
     margin-top: 39px;
+    margin-left: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
 }
 
 #card01 {
     width: 182px; ;
-    height: 235px;
-    margin-top: 145px;
+    height: 272px;
+    margin-bottom: 10em;
 }
 
 #naranjas {
     width: 101px;
     height: 88px;
     position: relative;
-    bottom: 15.5em;
+    bottom: 17.3em;
     left: 3em;
 
 }
 
-#sombras{
+.sombras{
     filter: drop-shadow( 0px 100px 80px rgba(0, 0, 0, 0.1));
 }
 
 #card01Marco {
     width: 182px;
-    height: 235px;
+    height: 272px;
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
     background-color: #ffffff;
     border-radius: 12px;
     display: flex;
-    align-items: center;
+    align-items:center ;
     justify-content: center;
+}
+
+.miniTxt {
+    width: 82px;
+    height: 76px;
+    margin-top: 10px;
+    margin: 105px 50px 54px 50px;
 }
 
 #miniTxt2 {
@@ -266,7 +279,7 @@ box-shadow: 0px 20px 50px 0.68px rgba(0,0,0,0.04);
 #card01Marco h3 {
     font-family: "Poppins";
     font-size: 20px;
-    font-weight: 900;
+    font-weight: bolder;
     align-items: center;
     margin-top: 16px;
 }
@@ -276,12 +289,63 @@ box-shadow: 0px 20px 50px 0.68px rgba(0,0,0,0.04);
     height: 2px;
     margin-left: 2.3em;
     background-color: #FFA610;
-    border-color: #FFA610;
-    border-radius: 1px;
+    margin-top: 6px;
+    border: none;
 }
 
 #carritoAgregar {
     position: relative;
     bottom: 10.2em;
     left: 1.7em;
+}
+
+#imgCheff {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:12em ;
+    width: 417px;
+    height: 605px;
+}
+
+#imgCheff img {
+    width: 323px;
+    height: 547px;
+}
+
+#fondoChedd {
+    position: absolute;
+}
+
+#card02 {
+    width: 160px;
+    height: 74px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;;
+    margin-bottom: 400px;
+    margin-left: 20em;
+}
+
+#fondoCard02 span{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    color: #404040;
+}
+#fondoCard02 h2{
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 600;
+    color: #A5A4A4;
+}
+
+
+
+#card02 img {
+    width: 34px;
+    height: 34px;
 }
